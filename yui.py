@@ -157,4 +157,4 @@ cli.add_command(start)
 cli.add_command(init)
 
 
-cli()
+#cli()
