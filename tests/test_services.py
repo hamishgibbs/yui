@@ -43,6 +43,7 @@ def test_format_text_unsprinted(yui_sprinted, state_unsprinted):
 
     assert "test1" in res
     assert "test2" in res
+    assert "All Tasks" in res
 
 
 def test_format_text_sprinted(yui_sprinted, state_sprinted):
@@ -51,3 +52,14 @@ def test_format_text_sprinted(yui_sprinted, state_sprinted):
 
     assert "test1" not in res
     assert "test2" in res
+    assert "Sprint Tasks" in res
+
+
+def test_format_text_unsprinted_exception(yui_sprinted, state_unsprinted):
+
+    state_unsprinted["active_index"] = 3
+
+    res = format_text(yui_sprinted["tasks"], state_unsprinted)
+
+    assert state_unsprinted["active_index"] == 0
+    assert "test1" in res
