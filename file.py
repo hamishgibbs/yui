@@ -13,7 +13,7 @@ def filter_inactive(tasks):
 
     return [x for x in tasks
             if "xtime" in x.keys()
-            and "otime" in x.keys()]
+            or "otime" in x.keys()]
 
 
 def read_yui():
