@@ -44,13 +44,13 @@ Tasks are divided in two categories: "All tasks" and "Sprint tasks". A "sprint" 
 
 Tasks can be "sprinted", "unsprinted", "completed", "deleted".
 
-`ctrl + s` - "sprinting" a task labels it as a part of the current sprint.
-`ctrl + s` - "unsprinting" a task removed it from the current sprint.
-`ctrl + x` - "completing" a task removes it from the task list and marks it as completed.
-`ctrl + o` - "deleting" a task removes it from the task list.
+`ctrl + S` - "sprinting" a task labels it as a part of the current sprint.
+`ctrl + S` - "unsprinting" a task removes it from the current sprint.
+`ctrl + X` - "completing" a task removes it from the task list and marks it as completed.
+`ctrl + O` - "deleting" a task deletes it from the task list.
 `up` and `down` arrows - Navigate the task list.
 
-`ctrl + a` - toggles "All tasks" and "Sprint tasks".
+`ctrl + A` - toggles "All tasks" and "Sprint tasks".
 
 #### Recommended use
 
