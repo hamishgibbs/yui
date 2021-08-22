@@ -1,6 +1,6 @@
 # YUI
 
-A simple to do list CLI.
+A simple to-do list CLI. A very simple to-do list CLI.
 
 #### Installation
 
@@ -14,7 +14,7 @@ poetry install
 
 #### Quickstart
 
-`YUI` persists to do list tasks so you can keep track of what you do and how long it took you.
+`YUI` persists to-do list tasks so you can keep track of what you do and how long it took you.
 
 Start using `YUI` by creating a `yui.json` file with:
 
@@ -32,7 +32,7 @@ Add your first tasks by typing in the command line and press `enter`.
 
 #### Interface
 
-`YUI` implements a flat to do list with limited navigation commands.
+`YUI` implements a flat to-do list with limited navigation commands.
 
 The goal of the library is speed and ease of navigation.
 
@@ -54,12 +54,12 @@ Tasks can be "sprinted", "unsprinted", "completed", "deleted".
 
 #### Recommended use
 
-This library is a rapid, persistent to do list.
+This library is a rapid, persistent to-do list.
 
 `YUI` will NOT work well with:
 
-* Long to do descriptions
-* Very many to do items (25+)
+* Long to-do descriptions
+* Very many to-do items (25+)
 
 `YUI` is good for:
 
