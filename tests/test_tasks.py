@@ -1,5 +1,5 @@
 import pytest
-from tasks import (add_task,
+from yui.tasks import (add_task,
                    sprint_task,
                    complete_task,
                    delete_task,

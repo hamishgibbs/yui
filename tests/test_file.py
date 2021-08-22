@@ -1,5 +1,5 @@
 import pytest
-from file import filter_active, filter_inactive
+from yui.file import filter_active, filter_inactive
 
 
 @pytest.fixture()

@@ -11,15 +11,15 @@ from prompt_toolkit.layout.controls import FormattedTextControl
 from prompt_toolkit.layout.layout import Layout
 from prompt_toolkit.widgets import TextArea
 
-from tasks import (add_task,
+from yui.tasks import (add_task,
                    sprint_task,
                    unsprint_task,
                    complete_task,
                    delete_task)
 
-from file import read_yui, write_yui
+from yui.file import read_yui, write_yui
 
-from services import get_active_indices, format_text
+from yui.services import get_active_indices, format_text
 
 
 state = {

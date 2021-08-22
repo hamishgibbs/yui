@@ -1,5 +1,5 @@
 import pytest
-from services import get_active_indices, format_text
+from yui.services import get_active_indices, format_text
 
 
 @pytest.fixture()
