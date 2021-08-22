@@ -31,10 +31,3 @@ def complete_task(task):
 def delete_task(task):
 
     task.update({"otime": datetime.timestamp(datetime.now())})
-
-
-# TODO: implement
-def rearrange_tasks(tasks, new_position, orig_position):
-
-    tasks.insert(new_position, tasks[orig_position])
-    tasks.pop(orig_position + 1)
