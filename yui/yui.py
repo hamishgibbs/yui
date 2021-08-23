@@ -125,9 +125,9 @@ def cli():
 @click.command()
 def init():
     if os.path.isfile("yui.json"):
-        response = input("yui.json exists. Overwrite? (y/n)")
+        response = input("yui.json exists. Overwrite? (y/n) ")
         if response == "y":
-            write_yui()
+            write_yui(overwrite=True)
     else:
         write_yui()
 

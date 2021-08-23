@@ -27,9 +27,9 @@ def read_yui():
     return yui
 
 
-def write_yui(yui={"tasks": []}):
+def write_yui(yui={"tasks": []}, overwrite=False):
 
-    if os.path.isfile("yui.json"):
+    if os.path.isfile("yui.json") and not overwrite:
 
         # Read old tasks
         with open("yui.json", "r") as f:
