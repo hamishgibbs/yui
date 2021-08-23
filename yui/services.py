@@ -8,6 +8,10 @@ def get_active_indices(tasks, state):
 
 def format_text(tasks, state):
 
+    if len(tasks) == 0:
+
+        return "-- Add a task! --"
+
     tasks_formatted = []
 
     tasks = [tasks[i] for i in get_active_indices(tasks, state)]
