@@ -34,6 +34,7 @@ def add_task_(buff):
     add_task(yui, task)
     write_yui(yui)
 
+    yui = read_yui()
     tasks_formatted = [x["task"] for x in yui["tasks"]]
     tasks_formatted = format_text(yui["tasks"], state)
     root_container.children[0].content.text = tasks_formatted
