@@ -9,7 +9,7 @@ This library uses poetry for dependency management.
 Clone this repository, `cd` into the project directory, and install the package with:
 
 ``` {shell}
-poetry install
+pip install .
 ```
 
 #### Quickstart
@@ -19,13 +19,13 @@ poetry install
 Start using `YUI` by creating a `yui.json` file with:
 
 ``` {shell}
-poetry run yui init
+yui init
 ```
 
 Then, open the `YUI` CLI:
 
 ``` {shell}
-poetry run yui start
+yui start
 ```
 
 Add your first tasks by typing in the command line and press `enter`.
@@ -68,4 +68,4 @@ This library is a rapid, persistent to-do list.
 
 #### Contributions
 
-This is a small library for personal use. Contributions are welcome. If you see a problem with the library, please [open an issue](https://github.com/hamishgibbs/yui/issues/new).
+This is a small library with limited scope. Contributions are welcome. If you see a problem with the library, please [open an issue](https://github.com/hamishgibbs/yui/issues/new).
