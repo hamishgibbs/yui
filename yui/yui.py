@@ -123,7 +123,11 @@ def reorder_task(event):
     yui = read_yui()
     active_indices = get_active_indices(yui["tasks"], state)
 
-    yui["tasks"].insert(0, yui["tasks"].pop(active_indices[state["active_index"]]))
+    yui["tasks"].insert(0,
+                        yui["tasks"].pop(
+                            active_indices[state["active_index"]]
+                            )
+                        )
 
     write_yui(yui)
     yui = read_yui()
