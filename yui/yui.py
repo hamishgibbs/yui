@@ -118,7 +118,7 @@ def toggle_sprinted(event):
     root_container.children[0].content.text = tasks_formatted
 
 
-@kb.add('1')
+@kb.add('c-u')
 def reorder_task(event):
     yui = read_yui()
     active_indices = get_active_indices(yui["tasks"], state)
