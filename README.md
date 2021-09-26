@@ -1,6 +1,6 @@
 # YUI
 
-A very simple to-do list CLI.
+A very simple to-do list.
 
 ![](/yui_demo.png)
 
