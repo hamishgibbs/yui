@@ -1,10 +1,8 @@
 # YUI
 
-A simple to-do list CLI. A very simple to-do list CLI.
+A very simple to-do list CLI.
 
 #### Installation
-
-This library uses poetry for dependency management.
 
 Clone this repository, `cd` into the project directory, and install the package with:
 
@@ -28,29 +26,34 @@ Then, open the `YUI` CLI:
 yui start
 ```
 
-Add your first tasks by typing in the command line and press `enter`.
+Add your first task by typing in the command line and pressing `enter`.
 
-#### Interface
+#### Usage
 
-`YUI` implements a flat to-do list with limited navigation commands.
+`YUI` implements an intentionally limited to-do list interface.
 
-The goal of the library is speed and ease of navigation.
+The goal of the library is speed and ease of navigation while keeping tasks small.
 
-The core concept implemented by `YUI` is the `task` which has a creation time: `ctime` and `task` string describing the task.
+The basic concept implemented by `YUI` is the `task` which has a creation time: `ctime` and `task` string describing the task.
 
-Tasks are divided in two categories: "All tasks" and "Sprint tasks". A "sprint" is a collection of tasks that will be completed in a single "effort" (for example, in a day). The concept of a "sprint" is stolen from agile software development, where a "sprint" typically lasts 30 days.
+Tasks are divided in two categories: "All tasks" and "Sprint tasks". A "sprint" is a collection of tasks that will be completed in a single "effort" (for example, in a day). The concept of a "sprint" has been stolen from agile software development, where a "sprint" typically lasts longer.
 
-#### Task operations
+Tasks can be "sprinted", "unsprinted", "completed", or "deleted".
 
-Tasks can be "sprinted", "unsprinted", "completed", "deleted".
+**Navigation**
 
+`up` and `down` arrows - Navigate the task list.
 `ctrl + S` - "sprinting" a task labels it as a part of the current sprint.
 `ctrl + S` - "unsprinting" a task removes it from the current sprint.
 `ctrl + X` - "completing" a task removes it from the task list and marks it as completed.
 `ctrl + O` - "deleting" a task deletes it from the task list.
-`up` and `down` arrows - Navigate the task list.
+
+**Other commands**
 
 `ctrl + A` - toggles "All tasks" and "Sprint tasks".
+`ctrl + 1` - advances a task to the top of the task list.
+
+*Tasks that have been completed or deleted cannot be restored.*
 
 #### Recommended use
 
@@ -65,6 +68,7 @@ This library is a rapid, persistent to-do list.
 
 * Quickly updating your todo list
 * Tracking short-term project goals
+* Recording when you added, prioritised, and completed project goals.
 
 #### Contributions
 
