@@ -32,11 +32,7 @@ Add your first task by typing in the command line and pressing `enter`.
 
 #### Usage
 
-`YUI` implements an intentionally limited to-do list interface.
-
-The goal of the library is speed and ease of navigation while keeping tasks small.
-
-The basic concept implemented by `YUI` is the `task` which has a creation time: `ctime` and `task` string describing the task.
+`YUI` implements an intentionally limited to-do list interface made up of "tasks". The goal of the library is speed and ease of navigation while keeping tasks small.
 
 Tasks are divided in two categories: "All tasks" and "Sprint tasks". A "sprint" is a collection of tasks that will be completed in a single "effort" (for example, in a day). The concept of a "sprint" has been stolen from agile software development, where a "sprint" typically lasts longer.
 
@@ -70,7 +66,7 @@ This library is a rapid, persistent to-do list.
 
 * Quickly updating your todo list
 * Tracking short-term project goals
-* Recording when you added, prioritised, and completed project goals.
+* Recording when you added, prioritised, and completed tasks.
 
 #### Contributions
 
