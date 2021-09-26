@@ -2,6 +2,8 @@
 
 A very simple to-do list CLI.
 
+![](/yui_demo.png)
+
 #### Installation
 
 Clone this repository, `cd` into the project directory, and install the package with:
