@@ -4,7 +4,7 @@ A very simple to-do list.
 
 ![](/yui_demo.png)
 
-#### Installation
+## Installation
 
 Clone this repository, `cd` into the project directory, and install the package with:
 
@@ -12,7 +12,7 @@ Clone this repository, `cd` into the project directory, and install the package 
 pip install .
 ```
 
-#### Quickstart
+## Quickstart
 
 `YUI` persists to-do list tasks so you can keep track of what you do and how long it took you.
 
@@ -30,7 +30,7 @@ yui start
 
 Add your first task by typing in the command line and pressing `enter`.
 
-#### Usage
+## Usage
 
 `YUI` implements an intentionally limited to-do list interface made up of "tasks". The goal of the library is speed and ease of navigation while keeping tasks small.
 
@@ -38,7 +38,7 @@ Tasks are divided in two categories: "All tasks" and "Sprint tasks". A "sprint" 
 
 Tasks can be "sprinted", "unsprinted", "completed", or "deleted".
 
-**Navigation**
+### Navigation
 
 `up` and `down` arrows - Navigate the task list.
 `ctrl + S` - "sprinting" a task labels it as a part of the current sprint.
@@ -46,14 +46,14 @@ Tasks can be "sprinted", "unsprinted", "completed", or "deleted".
 `ctrl + X` - "completing" a task removes it from the task list and marks it as completed.
 `ctrl + O` - "deleting" a task deletes it from the task list.
 
-**Other commands**
+### Other commands
 
 `ctrl + A` - toggles "All tasks" and "Sprint tasks".
 `ctrl + 1` - advances a task to the top of the task list.
 
 *Tasks that have been completed or deleted cannot be restored.*
 
-#### Recommended use
+## Recommended use
 
 This library is a rapid, persistent to-do list.
 
@@ -68,6 +68,6 @@ This library is a rapid, persistent to-do list.
 * Tracking short-term project goals
 * Recording when you added, prioritised, and completed tasks.
 
-#### Contributions
+## Contributions
 
 This is a small library with limited scope. Contributions are welcome. If you see a problem with the library, please [open an issue](https://github.com/hamishgibbs/yui/issues/new).
